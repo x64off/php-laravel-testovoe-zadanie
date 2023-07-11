@@ -351,6 +351,7 @@ button.submit.outline:hover{
 }
 
 .user-menu {
+    z-index: 999;
     position: absolute;
     top: 128px;
     right: 64px;
