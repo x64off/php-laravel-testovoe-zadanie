@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Перенаправление на index.php для GET запросов
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?/$1 [QSA,L]
+
+# Перенаправление на index.php для POST запросов
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php [QSA,L]
