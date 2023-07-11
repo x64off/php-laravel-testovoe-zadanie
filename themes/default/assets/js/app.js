@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-const openModalBtn = document.getElementById('create-chat');
+const openModalBtn = document.getElementById('open-signup');
 const modal = document.getElementById('signup-modal');
 const closeModalBtn = document.querySelector('.close');
 if (openModalBtn) {
